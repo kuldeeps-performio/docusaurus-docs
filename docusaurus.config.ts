@@ -15,10 +15,10 @@ const config: Config = {
   },
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://kuldeeps-performio.github.io/',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: '/docusaurus-docs/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -138,7 +138,7 @@ const config: Config = {
       ],
       copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
     },
-    editUrl: "https://github.com/kuldeeps-performio/docusaurus-docs.git/edit/main/",
+    editUrl: "https://github.com/kuldeeps-performio/docusaurus-docs/edit/main/",
     prism: {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
