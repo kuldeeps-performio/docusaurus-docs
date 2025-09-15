@@ -45,7 +45,7 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/kuldeeps-performio/docusaurus-docs/edit/main/docs/',
+            'https://github.com/kuldeeps-performio/docusaurus-docs/edit/main/',
         },
         blog: {
           showReadingTime: true,
@@ -56,7 +56,7 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/kuldeeps-performio/docusaurus-docs/edit/main/blog/',
+            'https://github.com/kuldeeps-performio/docusaurus-docs/edit/main/',
           // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
@@ -138,7 +138,6 @@ const config: Config = {
       ],
       copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
     },
-    editUrl: "https://github.com/kuldeeps-performio/docusaurus-docs/edit/main/",
     prism: {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
